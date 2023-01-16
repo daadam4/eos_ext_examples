@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	node, err := goeapi.ConnectTo("http", "192.168.0.102", "username", "xxxxx", 80)
+	node, err := goeapi.Connect("http", "192.168.0.102", "username", "xxxxx", 80)
 	if err != nil {
 		fmt.Println(err)
 		return
