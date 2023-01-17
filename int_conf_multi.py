@@ -1,6 +1,6 @@
 import pyeapi
 
-hosts = ["192.168.1.55", "192.168.1.56"]
+hosts = ["192.168.0.101", "192.168.0.102"]
 
 for ip_address in hosts:
     
