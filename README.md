@@ -57,6 +57,7 @@ cd ./eos_lldp_port_config/
 ```bash
 python3 int_conf.py
 python3 int_conf_multi.py
-python3 int_conf_detail.py```
+python3 int_conf_detail.py
+```
 
 - The code has comments throughout that should make it clear what is occuring at each point of the script.
