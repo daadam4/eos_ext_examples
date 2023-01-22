@@ -9,7 +9,7 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 1. [Launch Programmability IDE](#step-1---launch-programmability-ide)
 2. [Change Working Directory and Git Clone](#step-2---change-working-directory-and-git-clone)
 3. [Update Passwords](#step-3---update-passwords)
-4. [Let the fun begin](#step-4---Let-the-fun-begin)
+4. [Let the fun begin :joy:](#step-4---Let-the-fun-begin)
 
 ## STEP #1 - Launch Programmability IDE
 
@@ -32,7 +32,6 @@ git clone https://github.com/daadam4/eos_lldp_port_config.git
 cd ./eos_lldp_port_config/
 ```
 
-
 ## STEP #3 - Update Passwords
 
 - For each of the files in the image below
@@ -47,6 +46,16 @@ cd ./eos_lldp_port_config/
 
 `node = pyeapi.client.connect(host=ip_address, username='arista', password='arista1234', transport='https', return_node=True)`
 
-- Your credentials can be found near the bottom of the landing page
+- Your credentials can be found near the bottom of the ATD landing page
 
 ![Topo](images/username_passwords.png)
+
+## STEP #4 - Let the fun begin:joy:
+
+- The recommended order of running the scipts is as follows. Each subsequent builds on the previous by adding simple features and ends with a practical application of how this could be useful in your network:
+
+```python3 int_conf.py```
+```python3 int_conf_multi.py```
+```python3 int_conf_detail.py```
+
+- The code has comments throughout that should make it clear what is occuring at each point of the script.
