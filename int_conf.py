@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pyeapi
 
 # Connect to the Arista EOS device

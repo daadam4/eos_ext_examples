@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pyeapi
 
 hosts = ["192.168.0.101", "192.168.0.102"]
