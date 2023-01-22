@@ -47,7 +47,7 @@ cd ./eos_lldp_port_config/
 
 `node = pyeapi.client.connect(host=ip_address, username='arista', password='arista1234', transport='https', return_node=True)`
 
-- Your credentials can be found near the bottom of the ATD landing page
+- Again, your credentials can be found near the bottom of the Lab Topology page.
 
 ![Topo](images/username_passwords.png)
 
