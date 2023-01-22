@@ -54,8 +54,9 @@ cd ./eos_lldp_port_config/
 
 - The recommended order of running the scipts is as follows. Each subsequent builds on the previous by adding simple features and ends with a practical application of how this could be useful in your network:
 
-```python3 int_conf.py```
-```python3 int_conf_multi.py```
-```python3 int_conf_detail.py```
+```bash
+python3 int_conf.py
+python3 int_conf_multi.py
+python3 int_conf_detail.py```
 
 - The code has comments throughout that should make it clear what is occuring at each point of the script.
