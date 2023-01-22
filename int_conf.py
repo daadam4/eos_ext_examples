@@ -1,7 +1,7 @@
 import pyeapi
 
 # Connect to the Arista EOS device
-node = pyeapi.client.connect(host='192.168.0.102', username='arista', password='password', transport='http', return_node=True)
+node = pyeapi.client.connect(host='192.168.0.102', username='arista', password='password', transport='https', return_node=True)
 
 # Configure interface Ethernet1
 commands = [
@@ -18,5 +18,6 @@ validate = [
 
 result = node.run_commands(validate, encoding='text')
 
-for line in str(result).split():
-    print(line)
+for element in result:
+    for _, m in element.items():
+        print(f"command:\n{validate[0]}\nresult:\n{m}")
