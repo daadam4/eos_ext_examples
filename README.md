@@ -9,7 +9,7 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 1. [Launch Programmability IDE](#step-1---launch-programmability-ide)
 2. [Change Working Directory and Git Clone](#step-2---change-working-directory-and-git-clone)
 3. [Update Passwords](#step-3---update-passwords)
-4. [Let the fun begin :joy:](#step-4---Let-the-fun-begin)
+4. [Let the fun begin 🚀](#step-4---Let-the-fun-begin)
 
 ## STEP #1 - Launch Programmability IDE
 
@@ -50,7 +50,7 @@ cd ./eos_lldp_port_config/
 
 ![Topo](images/username_passwords.png)
 
-## STEP #4 - Let the fun begin:joy:
+## STEP #4 - Let the fun begin🚀
 
 - The recommended order of running the scipts is as follows. Each subsequent builds on the previous by adding simple features and ends with a practical application of how this could be useful in your network:
 
