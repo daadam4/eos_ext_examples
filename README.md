@@ -7,10 +7,9 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 ## Summary of Steps
 
 1. [Launch Programmability IDE](#step-1---launch-programmability-ide)
-2. [Change Working Directory](#step-2---change-working-directory)
-3. [Clone the repo](#step-3---clone-the-repo)
-4. [Update Passwords](#step-4---update-passwords)
-5. [Let the fun begin](#step-5---Let-the-fun-begin)
+2. [Change Working Directory and Git Clone](#step-2---change-working-directory-and-git-clone)
+3. [Update Passwords](#step-3---update-passwords)
+4. [Let the fun begin](#step-4---Let-the-fun-begin)
 
 ## STEP #1 - Launch Programmability IDE
 
@@ -20,3 +19,34 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 
 - Click through any pop-ups that may occur.
 - Start a new terminal session by clicking on the hamburger and selecting Terminal->New Terminal.
+
+![Topo](images/programmability_ide.png)
+
+## STEP #2 - Change Working Directory and Git Clone
+
+- Change working directory to `labfiles` and clone the repo. Finally, change directory to `./eos_lldp_port_config`. You can either manually type in the commands from the following code block or there is a copy option if you hover to the right.
+
+``` bash
+cd ./labfiles
+git clone https://github.com/daadam4/eos_lldp_port_config.git
+cd ./eos_lldp_port_config/
+```
+
+
+## STEP #3 - Update Passwords
+
+- For each of the files in the image below
+
+<img src="images/password_update.png" alt="folder"/>
+
+- the following line needs to be updated with the password from your ATD environment, leaving all other variables the same.
+
+`node = pyeapi.client.connect(host=ip_address, username='arista', password='password', transport='https', return_node=True)`
+
+- For example if my password were `arista1234` the line would read
+
+`node = pyeapi.client.connect(host=ip_address, username='arista', password='arista1234', transport='https', return_node=True)`
+
+- Your credentials can be found near the bottom of the landing page
+
+![Topo](images/username_passwords.png)
