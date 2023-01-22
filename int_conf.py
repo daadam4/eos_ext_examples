@@ -1,7 +1,7 @@
 import pyeapi
 
 # Connect to the Arista EOS device
-node = pyeapi.client.connect(host='192.168.0.102', username='admin', password='admin', transport='http', return_node=True)
+node = pyeapi.client.connect(host='192.168.0.102', username='arista', password='password', transport='http', return_node=True)
 
 # Configure interface Ethernet1
 commands = [

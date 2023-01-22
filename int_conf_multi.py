@@ -4,7 +4,7 @@ hosts = ["192.168.0.101", "192.168.0.102"]
 
 for ip_address in hosts:
     
-    node = pyeapi.client.connect(host=ip_address, username='admin', password='admin', transport='http', return_node=True)
+    node = pyeapi.client.connect(host=ip_address, username='arista', password='password', transport='https', return_node=True)
 
     for interface in range(1,49):
         # Configure interface Ethernet1
