@@ -10,6 +10,7 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 2. [Change Working Directory and Git Clone](#step-2---change-working-directory-and-git-clone)
 3. [Update Passwords](#step-3---update-passwords)
 4. [Let the fun begin 🚀](#step-4---Let-the-fun-begin)
+5. [Additional Resources](#additional-resources)
 
 ## STEP #1 - Launch Programmability IDE
 
@@ -56,8 +57,21 @@ cd ./eos_lldp_port_config/
 
 ```bash
 python3 int_conf.py
+```
+```
 python3 int_conf_multi.py
+```
+```
 python3 int_conf_detail.py
 ```
 
 - The code has comments throughout that should make it clear what is occuring at each point of the script.
+
+## Additional Resources
+- Now that you have built a base go checkout Arista Networks on github and all of these other awesome resources
+
+[Arista Networks Github](https://github.com/aristanetworks) - A collection of a various resources for EOS, Cloudvision, and other Arista tools
+
+[Arista Networks EOS+](https://github.com/arista-eosplus) - EOS+ extensions, including `pyeapi` which was used in this repo
+
+[PacketAnglers](https://github.com/packetAnglers/) - A few folks who like to fish, network, and automate
