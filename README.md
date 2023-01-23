@@ -35,13 +35,17 @@ cd ./eos_lldp_port_config/
 
 ## STEP #3 - Update Passwords
 
-- For each of the files in the image below
+- For each of the files in the image below, update the `password` variable for the line in the code block beneath.
 
 <img src="images/password_update.png" alt="folder"/>
 
-- the following line needs to be updated with the password from your ATD environment, leaving all other variables the same.
-
 `node = pyeapi.client.connect(host=ip_address, username='arista', password='password', transport='https', return_node=True)`
+
+| File Name   | Line # |
+| ----------- | ----------- |
+| int_conf.py | 5       |
+| int_conf_multi.py   | 8        |
+| int_conf_detail.py   | 12        |
 
 - For example if my password were `arista1234` the line would read
 
