@@ -34,4 +34,4 @@ for ip_address in hosts:
 
     for element in result:
         for _, m in element.items():
-            print(f"node: {ip_address}\ncommand: {validate[0]}\nresult: {m}")
+            print(f"node: {ip_address}\ncommand: {validate[0]}\noutput:\n{m}")

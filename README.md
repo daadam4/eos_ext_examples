@@ -68,7 +68,7 @@ python3 int_conf_multi.py
 ```
 python3 int_conf_detail.py
 ```
-- After running `int_conf_detail.py` connect one of the nodes through the cli and very the configuration since there is no validation check.
+- After running `int_conf_detail.py` connect to a few of the nodes through the cli and verify the configuration
 
 ## Additional Resources
 - Now that you have built a base go checkout Arista Networks on github and all of these other awesome resources

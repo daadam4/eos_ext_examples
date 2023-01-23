@@ -34,4 +34,4 @@ result = node.run_commands(validate, encoding='text')
 # Run a for loop to print the output
 for element in result:
     for _, m in element.items():
-        print(f"command:\n{validate[0]}\nresult:\n{m}")
+        print(f"command:\n{validate[0]}\noutput:\n{m}")
