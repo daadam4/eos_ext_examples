@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# This script builds on the int_conf_multi.py script by adding all ATD hosts, using lldp output,
+# and configuring multiple interfaces. The comments there provide building blocks for this code
+
 import pyeapi
 
 # List of that we will connect to and run commands against
