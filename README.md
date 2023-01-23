@@ -45,7 +45,7 @@ cd ./eos_lldp_port_config/
 | ----------- | ----------- |
 | int_conf.py | 8       |
 | int_conf_multi.py   | 14        |
-| int_conf_detail.py   | 16        |
+| int_conf_detail.py   | 22        |
 
 - For example if my password were `arista1234` the line would read
 
