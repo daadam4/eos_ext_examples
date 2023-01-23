@@ -9,7 +9,7 @@ This repo is meant to serve as an introduction to simple scripts that can be ran
 1. [Launch Programmability IDE](#step-1---launch-programmability-ide)
 2. [Change Working Directory and Git Clone](#step-2---change-working-directory-and-git-clone)
 3. [Update Passwords](#step-3---update-passwords)
-4. [Let the fun begin 🚀](#step-4---Let-the-fun-begin)
+4. [Let the fun begin 🚀](#step-4---Let-the-fun-begin-🚀)
 5. [Additional Resources](#additional-resources)
 
 ## STEP #1 - Launch Programmability IDE
@@ -55,7 +55,7 @@ cd ./eos_lldp_port_config/
 
 ![Topo](images/username_passwords.png)
 
-## STEP #4 - Let the fun begin🚀
+## STEP #4 - Let the fun begin 🚀
 
 - The recommended order of running the scipts is as follows. Each subsequent script builds on the previous one by adding simple features and ends with a practical application of how this could be useful in your network:
 
@@ -68,8 +68,7 @@ python3 int_conf_multi.py
 ```
 python3 int_conf_detail.py
 ```
-
-- The code has comments throughout that should make it clear what is occuring at each point of the script.
+- After running `int_conf_detail.py` connect one of the nodes through the cli and very the configuration since there is no validation check.
 
 ## Additional Resources
 - Now that you have built a base go checkout Arista Networks on github and all of these other awesome resources
