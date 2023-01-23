@@ -35,7 +35,7 @@ cd ./eos_lldp_port_config/
 
 ## STEP #3 - Update Passwords
 
-- For each of the files in the image below, update the `password` variable for the line in the code block beneath.
+- For each of the files in the image below, update the `password` variable for the line in the code block beneath. *If you left click each file in the explorer, it will open within the editor and you can edit the file directly in the IDE*
 
 <img src="images/password_update.png" alt="folder"/>
 
@@ -68,6 +68,19 @@ python3 int_conf_multi.py
 ```
 python3 int_conf_detail.py
 ```
+### What's happening?
+
+**int_conf.py**
+---
+- Adding a description to Ethernet1 on `node` s1-core1.atd.lab (192.168.0.102) and then validating by showing the running configuration
+
+**int_conf_multi.py**
+---
+- Building on `int_conf.py` by looping through multiple hosts and multiple interfaces but again configuring a description on interfaces
+
+**int_conf_detail.py**
+---
+- A real world example where we use the tools from the previous two scripts to now take the `show lldp neighbors` output and use that data to configure the interface descriptions
 - After running `int_conf_detail.py` connect to a few of the nodes through the cli and verify the configuration
 
 ## Additional Resources
