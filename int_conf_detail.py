@@ -19,7 +19,7 @@ print('Example: The following is output for s2-core2.atd.lab\n')
 for ip_address in hosts:
     # For every item in list, do X or in our case for IP address in host list, connect to the Arista EOS device
     # Pass pyeapi client the connection parameters
-    node = pyeapi.client.connect(host=ip_address, username='arista', password='aristakr3e', transport='https', return_node=True)
+    node = pyeapi.client.connect(host=ip_address, username='arista', password='password', transport='https', return_node=True)
 
     show_commands = [
         'show lldp neighbors',
