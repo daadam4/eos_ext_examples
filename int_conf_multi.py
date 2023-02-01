@@ -11,7 +11,7 @@ hosts = ["192.168.0.101", "192.168.0.102"]
 for ip_address in hosts:
     
     # Connect to the EOS device
-    node = pyeapi.client.connect(host=ip_address, username='arista', password='aristakr3e', transport='https', return_node=True)
+    node = pyeapi.client.connect(host=ip_address, username='arista', password='password', transport='https', return_node=True)
 
     # For every number in the range, do the following
     for interface in range(1,49):
